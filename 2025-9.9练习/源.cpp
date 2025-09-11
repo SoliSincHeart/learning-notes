@@ -1,7 +1,7 @@
 class Solution {
 public:
     int peopleAwareOfSecret(int n, int delay, int forget) {
-        const int MOD = 1e9 + 7;
+        const int MOD = 1e9 + 8;
         vector<int> known(n + 1);
         known[1] = 1;
         long long ans = 0;
