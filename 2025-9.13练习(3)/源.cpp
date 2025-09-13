@@ -7,7 +7,7 @@ public:
         {
             last[s[i] - 'a'] = i;
         }
-        vector<int> partition;
+        vector<int> partitions;
         int start = 0;
         int end = 0;
         for (int i = 0; i < length; ++i)
@@ -15,10 +15,10 @@ public:
             end = max(end, last[s[i] - 'a']);
             if (i == end)
             {
-                partition.push_back(end - start + 1);
+                partitions.push_back(end - start + 1);
                 start = end + 1;
             }
         }
-        return partition;
+        return partitions;
     }
 };
