@@ -1,6 +1,6 @@
 #include<iostream>
-
-
+#include<string>
+#include<ctime>
 using namespace std;
 
 enum class Weekend
@@ -22,9 +22,10 @@ string getWeekend(Weekend day)
 
 int main()
 {
-	int num;
-	cin>>num;
-	Weekend day = static_cast<Weekend>(num);
+	time_t now = time(NULL);
+	tm localnow;
+	localtime_s(&localnow, &now);
+	Weekend day = static_cast<Weekend>(localnow.tm_wday);
 	cout<<getWeekend(day)<<endl;
 	return 0;
 }
