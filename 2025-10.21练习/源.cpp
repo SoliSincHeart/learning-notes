@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+<<<<<<< HEAD
     //深度优先搜索
     //void dfs(TreeNode* root, string path, vector<string>& paths)
     //{
@@ -51,7 +52,7 @@ public:
             string path = path_queue.front();
             node_queue.pop();
             path_queue.pop();
-            if (node->left == nullptr && node->right == nullptr)
+            if (root->left == nullptr && root->right == nullptr)
             {
                 paths.push_back(path);
             }
@@ -69,6 +70,17 @@ public:
                 }
             }
         }
+=======
+                path += "->";
+                dfs(root->left, path, paths);
+                dfs(root->right, path, paths);
+            }
+        }
+    }
+    vector<string> binaryTreePaths(TreeNode* root) {
+        vector<string> paths;
+        dfs(root, "", paths);
+>>>>>>> 6fa13447e3062646548e09cb26cf1b5648f437e8
         return paths;
     }
 };
