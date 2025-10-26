@@ -17,7 +17,7 @@ int numberOfArithmeticSlices(vector<int>& nums) {
     {
         cout << dp[i] << " ";
     }
-    cout<<endl;
+    cout << endl;
     return accumulate(dp.begin(), dp.end(), 0);
 }
 
