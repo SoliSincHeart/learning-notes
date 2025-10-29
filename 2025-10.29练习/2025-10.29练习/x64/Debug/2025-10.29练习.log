@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\code\learning-notes_github\2025-10.29练习\源.cpp(10,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\code\learning-notes_github\2025-10.29练习\源.cpp(10,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  2025-10.29练习.vcxproj -> C:\code\learning-notes_github\2025-10.29练习\x64\Debug\2025-10.29练习.exe
