@@ -1,7 +1,15 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\code\\learning-notes_github\\2025-10.31\u7EC3\u4E60\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\code\\learning-notes_github\\2025-10.30\u7EC3\u4E60\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9542F1C1-5014-4261-B285-359F7C5377E6}|2025-10.31\u7EC3\u4E60.vcxproj|C:\\code\\learning-notes_github\\2025-10.31\u7EC3\u4E60\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9542F1C1-5014-4261-B285-359F7C5377E6}|2025-10.31\u7EC3\u4E60.vcxproj|solutionrelative:\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +26,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:283709:0:{1a46fd64-28d5-0019-8eb3-17a02d419b53}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "C:\\code\\learning-notes_github\\2025-10.30\u7EC3\u4E60\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "..\\2025-10.30\u7EC3\u4E60\\\u6E90.cpp",
+              "ToolTip": "C:\\code\\learning-notes_github\\2025-10.30\u7EC3\u4E60\\\u6E90.cpp",
+              "RelativeToolTip": "..\\2025-10.30\u7EC3\u4E60\\\u6E90.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-03T14:36:51.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "C:\\code\\learning-notes_github\\2025-10.31\u7EC3\u4E60\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "\u6E90.cpp",
+              "ToolTip": "C:\\code\\learning-notes_github\\2025-10.31\u7EC3\u4E60\\\u6E90.cpp",
+              "RelativeToolTip": "\u6E90.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-03T14:36:40.798Z",
+              "EditorCaption": ""
             }
           ]
         },
