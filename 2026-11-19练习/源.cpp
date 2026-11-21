@@ -1,23 +1,41 @@
 //非递归反转
-ListNode* reverseList(ListNode* head)
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 {
-	ListNode* prev = nullptr, * next;
-	while (head)
+	ListNode* dummy = new ListNode(0), * node = dummy;
+	while (l1 && l2) 
 	{
-		next = head->next;
-		head-> = prev;
-		prev = head;
-		head = next;
+		if (l1->val <= l2->val)
+		{
+			node->next = l1;
+			l1 = l1->next;
+		}
+		else
+		{
+			node->next = l2;
+			l2 = l2->next;
+		}
+		node = node->next;
 	}
-	return prev;
+	node->next = l1 ? l1 : l2;
+	return dummy->next;
 }
 
 //递归反转
-ListNode* reverseList(ListNode* head, ListNode* prev = nullptr) {
-	if (!head) {
-		return prev;
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
+{
+	if (!l2)
+	{
+		return l1;
 	}
-	ListNode* next = head->next;
-	head->next = prev;
-	return reverseList(next, head);
+	if (!l1)
+	{
+		return l2;
+	}
+	if (l1->val > l2->val)
+	{
+		l2->next = mergeTwoLists(l1, l2->next);
+		return l2;
+	}
+	l1->next = mergeTwoLists(l1->next, l2);
+	return l1;
 }
